@@ -1,0 +1,3 @@
+include ':applecrush'
+include ':app'
+rootProject.name = "MyApplication1"
