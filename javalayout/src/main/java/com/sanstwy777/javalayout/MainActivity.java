@@ -41,13 +41,14 @@ public class MainActivity extends AppCompatActivity {
                 new AlertDialog.Builder(MainActivity.this).setTitle("System Alert")
                         .setMessage("Start Game ?")
                         .setPositiveButton("Yes",
-                                new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        Log.i("Billiards", "start game");
-                                    }
-                                }).setNegativeButton("Quit",
-                        new DialogInterface.OnClickListener() {
+                            new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Log.i("Billiards", "start game");
+                            }
+                        })
+                        .setNegativeButton("Quit",
+                            new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 Log.i("Billiards", "quit game");
