@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#EAEAEA" >
+
+    <!-- Type widget -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="6"
+        android:hint="say something"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:gravity="top"
+        android:layout_marginBottom="10dp"
+        android:inputType="textMultiLine" >
+    </EditText>
+
+    <!-- Picture widget -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/addpicture"
+        android:text="add picture"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:drawablePadding="8dp"
+        android:background="#FFFFFF"
+        android:textColor="#767676"
+        />
+
+    <!-- Share widget -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/bottom"
+        android:scaleType="fitXY"
+        />
+
+</LinearLayout>
