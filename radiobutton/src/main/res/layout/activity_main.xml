@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If a rooster lays an egg on the roof it will roll…"
+        android:textSize="16sp"
+        />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- Button A -->
+        <RadioButton
+            android:id="@+id/rb_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A: SOUTH" />
+
+        <!-- Button B -->
+        <RadioButton
+            android:id="@+id/rb_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B: WEST" />
+
+        <!-- Button C -->
+        <RadioButton
+            android:id="@+id/rb_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C: EAST" />
+
+        <!-- Button D -->
+        <RadioButton
+            android:id="@+id/rb_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D: NONE OF THESE" />
+
+    </RadioGroup>
+
+    <!-- Submit button -->
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
