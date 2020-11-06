@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActionBar</string>
+    <string name="show">show ActionBar</string>
+    <string name="hide">hide ActionBar</string>
+</resources>
