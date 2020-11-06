@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OptionsMenu</string>
+    <string name="menu_title_settings">settings</string>
+    <string name="menu_title_regard">about</string>
+    <string name="title1">Google Inc.</string>
+    <string name="text1">123</string>
+    <string name="text2">Site: http://www.google.com</string>
+    <string name="text3">Email: xxx@gmail.com</string>
+    <string name="text4">Tel: 0123456789</string>
+    <string name="Regard_name">About</string>
+</resources>
