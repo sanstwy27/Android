@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ContextMenu</string>
+    <string name="introduce_copy">Copy</string>
+    <string name="introduce_collect">Collect</string>
+    <string name="introduce_translate">Translate</string>
+    <string name="introduce_report">Report</string>
+    <string name="book_collect">Collect</string>
+    <string name="book_report">Report</string>
+    <string name="name">Google Inc.</string>
+    <string name="introduce">123456789</string>
+</resources>
