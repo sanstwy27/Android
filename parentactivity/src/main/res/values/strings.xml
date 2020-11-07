@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ParentActivity</string>
+    <string name="friend">friends</string>
+</resources>
