@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="button1">show button alert</string>
+    <string name="button2">show list alert</string>
+    <string name="button3">show radio group alert</string>
+    <string name="button4">show checked box alert</string>
+</resources>
